@@ -1,0 +1,51 @@
+# TODO - Future Topics suggested by AI
+
+- updates - Version bumping, changelog management, updating packages
+- macros - Understanding and using RPM macros (%{_bindir}, %{python3_sitelib}, etc.)
+- debugging - Debugging failed builds with mock --shell and build logs
+- sources - Working with multiple source files (systemd units, configs, etc.)
+- scriptlets - Pre/post install scripts (%pre, %post, systemd macros)
+- subpackages - Splitting into -devel, -doc, -libs packages
+- Traditional rpmbuild workflow - Using ~/rpmbuild directories, rpmbuild -ba directly
+- Stop-at-stage debugging - rpmbuild -bp, -bc, -bi for incremental debugging
+- Conditional builds - %if, %bcond_with, %bcond_without
+- Architecture-specific code - %ifarch, ExcludeArch, ExclusiveArch
+- Git snapshots - Building from git commits instead of tarballs
+- Golang packaging - Using go-rpm-macros
+- Rust packaging - Using rust2rpm and cargo macros
+- Python modules - pyproject-rpm-macros, %pyproject_install
+- RPM signing - GPG keys and package signing
+- Repository creation - createrepo_c, hosting your own repo
+- Copr builds - Building in Fedora Copr infrastructure
+- Koji basics - Building in Fedora's build system
+- Package review - fedora-review tool and packaging guidelines
+- Static analysis - rpmlint, abicheck
+- Dist-git workflow - Working with Fedora's dist-git
+- Bundled dependencies - Providing bundled libraries correctly
+- License handling - SPDX identifiers, multiple licenses
+- Security updates - CVE patches, security advisories
+- Mass rebuilds - Handling API/ABI changes
+- Container images - Building RPMs for containers
+- Autotools projects - %configure, %make_build, %make_install
+- CMake projects - %cmake, %cmake_build, %cmake_install
+- Meson projects - %meson, %meson_build, %meson_install
+- Python setuptools - Legacy setup.py packaging
+- Node.js/npm - Packaging JavaScript applications
+- Shared libraries - Managing soname versions and -devel packages
+- Man pages - Installing and compressing documentation
+- Desktop files - .desktop file validation
+- AppData/Metainfo - Application metadata for software centers
+- SELinux policies - Custom policy modules
+- Kernel modules - kmod and dkms packaging
+- Build root issues - Files in wrong location
+- File conflicts - Multiple packages owning same file
+- Dependency loops - Breaking circular dependencies
+- Multilib issues - 32-bit and 64-bit coexistence
+- Debuginfo problems - Missing or broken debug packages
+- Large packages - Handling huge source tarballs
+- Naming conventions - Fedora package naming guidelines
+- Filesystem hierarchy - Where files should go
+- Documentation - What docs to include
+- Upstream collaboration - Working with upstream projects
+- Changelog hygiene - Writing good changelog entries
+
