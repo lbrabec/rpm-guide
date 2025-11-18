@@ -18,8 +18,6 @@ Each directory contains a self-contained example focusing on a specific aspect o
 - `03-patching-from-pr` - Applying patches from upstream PRs
 - `04-patching-custom` - Creating custom patches
 
-More sections coming soon! See `XX-todo/` for planned topics.
-
 ## Usage
 
 Work through directories in order. Each contains:
