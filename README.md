@@ -17,6 +17,7 @@ Each directory contains a self-contained example focusing on a specific aspect o
 - `02-dependencies` - Handling BuildRequires and Requires
 - `03-patching-from-pr` - Applying patches from upstream PRs
 - `04-patching-custom` - Creating custom patches
+- `05-subpackages` - Splitting into -devel, -examples, -doc
 
 ## Usage
 
