@@ -87,8 +87,11 @@ sudo dnf remove greetapp greetlib
 Most projects document their CMake options. Common ways to find them:
 
 ```bash
-# Search CMakeLists.txt for option()
-grep -r "option(" CMakeLists.txt
+# Search all CMakeLists.txt files
+grep -rn "option(" --include="CMakeLists.txt" .
+
+# Or let CMake list all options
+cmake -B build -LAH
 
 # Common patterns
 -DUSE_BUNDLED_*=OFF
