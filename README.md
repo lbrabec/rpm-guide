@@ -19,6 +19,7 @@ Each directory contains a self-contained example focusing on a specific aspect o
 - `04-patching-custom` - Creating custom patches
 - `05-subpackages` - Splitting into -devel, -examples, -doc
 - `06-unbundling` - Using system libraries instead of bundled
+- `07-rust` - Packaging Rust applications with system crates
 
 ## Usage
 
